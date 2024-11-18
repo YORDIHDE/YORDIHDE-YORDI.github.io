@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Productos de la Nueva Temporada</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #e0f7fa;
+      margin: 0;
+    }
+    header, footer {
+      background-color: #00796b;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+    }
+    nav ol {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    nav li {
+      display: inline-block;
+      margin-right: 20px;
+    }
+    nav a {
+      text-decoration: none;
+      color: #ffd600;
+      font-size: 18px;
+    }
+    main {
+      padding: 20px;
+      text-align: center;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+      margin-top: 20px;
+    }
+    .gallery img {
+      width: 100%;
+      height: auto;
+      border: 2px solid #00796b;
+      border-radius: 8px;
+    }
+    .back-link {
+      margin-top: 20px;
+      display: inline-block;
+      background-color: #00796b;
+      color: #fff;
+      padding: 10px 15px;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+    .back-link:hover {
+      background-color: #005a4f;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Productos de la Nueva Temporada</h1>
+    <nav>
+      <ol>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="acerca.html">Acerca de</a></li>
+        <li><a href="servicios.html">Servicios</a></li>
+        <li><a href="portafolio.html">Portafolio</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+     
+      </ol>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Explora los Nuevos Productos</h2>
+    <p>Aquí encontrarás nuestros más recientes juguetes reciclados diseñados con innovación y creatividad.</p>
+    <div class="gallery">
+      <img src="temp1.jpg" alt="Producto 1">
+      <img src="temp2.jpg" alt="Producto 2">
+      <img src="temp3.jpg" alt="Producto 3">
+      <img src="temp4.jpg" alt="Producto 4">
+      <img src="temp5.jpg" alt="Producto 5">
+      <img src="temp6.jpg" alt="Producto 6">
+    </div>
+    <a href="portafolio.html" class="back-link">Regresar al Portafolio</a>
+  </main>
+
+  <footer>
+    <p>Juguetes Reciclados &copy; 2024</p>
+  </footer>
+</body>
+</html>
